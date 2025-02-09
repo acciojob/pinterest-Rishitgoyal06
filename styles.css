@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.image{
+	width:70vw;
+	height:100vh;
+	object-fit:cover;
+	border-radius:15px;
+}
+
+.text{
+	display:block;
+	margin-left:50px;
+	text-align:center;
+}
+
+.explore-now{
+	background-color:red;
+	color:white;
+	text-decoration:none;
+	padding:10px;
+}
